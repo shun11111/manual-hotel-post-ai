@@ -1,0 +1,46 @@
+site_name: Hotel Post AI マニュアル
+site_url: https://example.com/manual-hotel-post-ai # ユーザーがGitHub PagesのURLに置き換える想定だが、なくても動く
+site_description: Hotel Post AI のユーザーマニュアル
+site_author: Hotel Post AI Team
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.expand
+    - navigation.sections
+    - content.code.copy
+  palette:
+    # ライトモード
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: ダークモードへ切り替え
+    # ダークモード
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: ライトモードへ切り替え
+
+nav:
+  - はじめに:
+    - トップページ: README.md
+    - Hotel Post AI とは？: docs/overview.md
+  - 使い方の流れ:
+    - 1. スタートガイド: docs/getting-started.md
+    - 2. ホテル情報の登録: docs/hotel-registration.md
+    - 3. 記事を作成する: docs/post-generation.md
+  - 困ったときは:
+    - よくある質問 (FAQ): docs/faq.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+
+copyright: Copyright &copy; 2025 Hotel Post AI Team
