@@ -28,14 +28,14 @@ theme:
 
 nav:
   - はじめに:
-    - トップページ: README.md
-    - Hotel Post AI とは？: docs/overview.md
+    - トップページ: index.md
+    - Hotel Post AI とは？: overview.md
   - 使い方の流れ:
-    - 1. スタートガイド: docs/getting-started.md
-    - 2. ホテル情報の登録: docs/hotel-registration.md
-    - 3. 記事を作成する: docs/post-generation.md
+    - 1. スタートガイド: getting-started.md
+    - 2. ホテル情報の登録: hotel-registration.md
+    - 3. 記事を作成する: post-generation.md
   - 困ったときは:
-    - よくある質問 (FAQ): docs/faq.md
+    - よくある質問 (FAQ): faq.md
 
 markdown_extensions:
   - admonition
